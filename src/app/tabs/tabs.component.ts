@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { MatTabsModule } from '@angular/material/tabs';
 
 @Component({
@@ -8,8 +8,4 @@ import { MatTabsModule } from '@angular/material/tabs';
   standalone: true,
   imports: [MatTabsModule],
 })
-export class TabsComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class TabsComponent {}
